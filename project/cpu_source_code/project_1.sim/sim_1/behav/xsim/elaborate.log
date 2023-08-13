@@ -1,0 +1,50 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: E:/Vivado/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 794da0e0ab5a40eab35e0f32aa9c6c4d --incr --debug typical --relax --mt 2 -L blk_mem_gen_v8_4_1 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot sim_coe_behav xil_defaultlib.sim_coe xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-278] actual bit length 15 differs from formal bit length 14 for port upg_adr_i [G:/Notes/Computer Organization/Proj/fin/cpu_4/project_1.srcs/sources_1/imports/再也不谈恋爱了/top.v:128]
+WARNING: [VRFC 10-278] actual bit length 32 differs from formal bit length 14 for port addra [G:/Notes/Computer Organization/Proj/fin/cpu_4/project_1.srcs/sources_1/imports/再也不谈恋爱了/programrom.v:19]
+WARNING: [VRFC 10-278] actual bit length 15 differs from formal bit length 14 for port upg_adr_i [G:/Notes/Computer Organization/Proj/fin/cpu_4/project_1.srcs/sources_1/imports/再也不谈恋爱了/top.v:148]
+WARNING: [VRFC 10-1783] select index 62 into current_contents is out of bounds [/wrk/2017.4/nightly/2017_12_15_2086221/packages/customer/vivado/data/ip/xilinx/blk_mem_gen_v8_4/simulation/blk_mem_gen_v8_4.v:2420]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module unisims_ver.BUFG
+Compiling module unisims_ver.PLLE2_ADV(CLKFBOUT_MULT=21,CLKIN...
+Compiling module xil_defaultlib.cpuclk_clk_wiz
+Compiling module xil_defaultlib.cpuclk
+Compiling module xil_defaultlib.segment
+Compiling module xil_defaultlib.uart_bmpg
+Compiling module xil_defaultlib.upg
+Compiling module xil_defaultlib.uart_bmpg_0
+Compiling module xil_defaultlib.pre_if
+Compiling module xil_defaultlib.if_id
+Compiling module xil_defaultlib.decode
+Compiling module xil_defaultlib.gen_regs
+Compiling module xil_defaultlib.id_ex
+Compiling module xil_defaultlib.execute
+Compiling module xil_defaultlib.ex_mem
+Compiling module xil_defaultlib.mem_wb
+Compiling module xil_defaultlib.forwarding
+Compiling module xil_defaultlib.hazard
+Compiling module xil_defaultlib.pc_gen
+Compiling module xil_defaultlib.cpu
+Compiling module xil_defaultlib.RenaiCirculation_default
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_output_stage(...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_softecc_outpu...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.prgrom
+Compiling module xil_defaultlib.programrom
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1_mem_module(C_...
+Compiling module blk_mem_gen_v8_4_1.blk_mem_gen_v8_4_1(C_FAMILY="art...
+Compiling module xil_defaultlib.RAM
+Compiling module xil_defaultlib.dmemory32
+Compiling module xil_defaultlib.num_switch
+Compiling module xil_defaultlib.vga_top
+Compiling module xil_defaultlib.top
+Compiling module xil_defaultlib.sim_coe
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot sim_coe_behav

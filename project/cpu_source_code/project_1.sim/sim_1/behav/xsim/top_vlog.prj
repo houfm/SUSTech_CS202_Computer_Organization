@@ -1,0 +1,32 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../project_1.srcs/sources_1/ip/cpuclk" \
+"../../../../project_1.srcs/sources_1/ip/RAM/sim/RAM.v" \
+"../../../../project_1.srcs/sources_1/ip/prgrom/sim/prgrom.v" \
+"../../../../project_1.srcs/sources_1/ip/uart_bmpg_0/uart_bmpg.v" \
+"../../../../project_1.srcs/sources_1/ip/uart_bmpg_0/upg.v" \
+"../../../../project_1.srcs/sources_1/ip/uart_bmpg_0/sim/uart_bmpg_0.v" \
+"../../../../project_1.srcs/sources_1/ip/cpuclk/cpuclk_clk_wiz.v" \
+"../../../../project_1.srcs/sources_1/ip/cpuclk/cpuclk.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/cpu.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/decode.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/dmemory.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/ex_mem.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/execute.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/forwarding.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/gen_regs.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/hazard.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/id_ex.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/if_id.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/mem_wb.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/pc_gen.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/pre_if.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/programrom.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/segment.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/wb.v" \
+"../../../../project_1.srcs/sources_1/imports/再也不谈恋爱了/top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

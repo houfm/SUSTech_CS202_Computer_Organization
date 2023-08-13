@@ -1,0 +1,21 @@
+Vivado Simulator 2017.4
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto 794da0e0ab5a40eab35e0f32aa9c6c4d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L secureip --snapshot sim_coe_func_synth xil_defaultlib.sim_coe xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+ERROR: [VRFC 10-426] cannot find port addr on this module [C:/Users/Administrator/Desktop/project_1/project_1.srcs/sim_1/new/sim_coe.v:27]
+ERROR: [VRFC 10-426] cannot find port instr on this module [C:/Users/Administrator/Desktop/project_1/project_1.srcs/sim_1/new/sim_coe.v:26]
+ERROR: [VRFC 10-2063] Module <BUFG> not found while processing module instance <U1> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43465]
+ERROR: [VRFC 10-2063] Module <cpuclk> not found while processing module instance <clk> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43469]
+ERROR: [VRFC 10-2063] Module <dmemory32> not found while processing module instance <dmem> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43473]
+ERROR: [VRFC 10-2063] Module <IBUF> not found while processing module instance <fpga_clk_IBUF_inst> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43483]
+ERROR: [VRFC 10-2063] Module <prgrom> not found while processing module instance <instmem> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43493]
+ERROR: [VRFC 10-2063] Module <OBUF> not found while processing module instance <led2N4_OBUF[0]_inst> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43500]
+ERROR: [VRFC 10-2063] Module <LUT1> not found while processing module instance <low_clk[0]_i_2> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43572]
+ERROR: [VRFC 10-2063] Module <FDRE> not found while processing module instance <low_clk_reg[0]> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43577]
+ERROR: [VRFC 10-2063] Module <CARRY4> not found while processing module instance <low_clk_reg[0]_i_1> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43585]
+ERROR: [VRFC 10-2063] Module <segment> not found while processing module instance <seg> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43742]
+ERROR: [VRFC 10-2063] Module <cpu> not found while processing module instance <u_cpu> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43876]
+ERROR: [VRFC 10-2063] Module <uart_bmpg_0> not found while processing module instance <uart> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43917]
+ERROR: [VRFC 10-2063] Module <LUT3> not found while processing module instance <upg_rst_i_1> [C:/Users/Administrator/Desktop/project_1/project_1.sim/sim_1/synth/func/xsim/sim_coe_func_synth.v:43928]
+ERROR: [XSIM 43-3322] Static elaboration of top level Verilog design unit(s) in library work failed.

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../project_1.srcs/sources_1/ip/cpuclk" \
+"sim_coe_func_synth.v" \
+"../../../../../project_1.srcs/sim_1/new/sim_coe.v" \
+
+# Do not sort compile order
+nosort

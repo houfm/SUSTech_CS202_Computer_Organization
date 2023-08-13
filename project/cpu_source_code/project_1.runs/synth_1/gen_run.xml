@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tfgg484-1" LaunchTime="1685293754">
+  <File Type="PA-TCL" Name="top.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="top_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="top_reports.tcl"/>
+  <File Type="RDS-RDS" Name="top.vds"/>
+  <File Type="RDS-UTIL" Name="top_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="top_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="top.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="top_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="top_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/ip/uart_bmpg_0_1/uart_bmpg_0.xci">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/code/RenaiCirculation.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../../../Digetal_Design/DD/code/RenaiCirculation.v"/>
+        <Attr Name="ImportTime" Val="1654159238"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/cpu.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/cpu.v"/>
+        <Attr Name="ImportTime" Val="1684652130"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/decode.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/decode.v"/>
+        <Attr Name="ImportTime" Val="1684637070"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/dmemory.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/dmemory.v"/>
+        <Attr Name="ImportTime" Val="1684616718"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/ex_mem.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/ex_mem.v"/>
+        <Attr Name="ImportTime" Val="1684602472"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/execute.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/execute.v"/>
+        <Attr Name="ImportTime" Val="1684602544"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/forwarding.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/forwarding.v"/>
+        <Attr Name="ImportTime" Val="1684323232"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/gen_regs.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/gen_regs.v"/>
+        <Attr Name="ImportTime" Val="1684666102"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/hazard.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/hazard.v"/>
+        <Attr Name="ImportTime" Val="1684637278"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/id_ex.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/id_ex.v"/>
+        <Attr Name="ImportTime" Val="1684651981"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/if_id.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/if_id.v"/>
+        <Attr Name="ImportTime" Val="1684320570"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/mem_wb.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/mem_wb.v"/>
+        <Attr Name="ImportTime" Val="1684570800"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/pc_gen.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/pc_gen.v"/>
+        <Attr Name="ImportTime" Val="1684584378"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/pre_if.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/pre_if.v"/>
+        <Attr Name="ImportTime" Val="1684590490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/programrom.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/programrom.v"/>
+        <Attr Name="ImportTime" Val="1684616725"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/segment.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/segment.v"/>
+        <Attr Name="ImportTime" Val="1684671552"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/vga_num_switch.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vga_num_switch.v"/>
+        <Attr Name="ImportTime" Val="1684938494"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/vga_top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../vga_top.v"/>
+        <Attr Name="ImportTime" Val="1684938506"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/再也不谈恋爱了/top.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../再也不谈恋爱了/top.v"/>
+        <Attr Name="ImportTime" Val="1684637416"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../FPGA_CPU/asms/offScene1/prgmip32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../FPGA_CPU/asms/offScene1/dmem32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../../../FPGA_CPU/asms/offScene2/prgmip32.coe">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="top"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/constratints/RAM_ooc.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu2/project.srcs/constrs_1/imports/constratints/RAM_ooc.xdc"/>
+        <Attr Name="ImportTime" Val="1623993608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/constrs_1/imports/constratints/main_constraint.XDC">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../cpu2/project.srcs/constrs_1/imports/constratints/main_constraint.XDC"/>
+        <Attr Name="ImportTime" Val="1623993608"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2017"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="prgrom"/>
+  <BlockFileSet Type="BlockSrcs" Name="RAM"/>
+  <BlockFileSet Type="BlockSrcs" Name="cpuclk"/>
+</GenRun>

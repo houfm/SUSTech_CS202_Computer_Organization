@@ -1,0 +1,50 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri May 26 01:47:52 2023
+# Process ID: 12096
+# Current directory: G:/Notes/Computer Organization/Proj/fin/cpu_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7452 G:\Notes\Computer Organization\Proj\fin\cpu_2\project_1.xpr
+# Log file: G:/Notes/Computer Organization/Proj/fin/cpu_2/vivado.log
+# Journal file: G:/Notes/Computer Organization/Proj/fin/cpu_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.xpr}
+update_compile_order -fileset sources_1
+set_property -dict [list CONFIG.Coe_File {G:/FPGA_CPU/asms/offScene1/prgmip32.coe}] [get_ips prgrom]
+generate_target all [get_files  {{G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.srcs/sources_1/ip/prgrom_2/prgrom.xci}}]
+catch { config_ip_cache -export [get_ips -all prgrom] }
+export_ip_user_files -of_objects [get_files {{G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.srcs/sources_1/ip/prgrom_2/prgrom.xci}}] -no_script -sync -force -quiet
+reset_run prgrom_synth_1
+launch_runs -jobs 8 prgrom_synth_1
+export_simulation -of_objects [get_files {{G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.srcs/sources_1/ip/prgrom_2/prgrom.xci}}] -directory {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.ip_user_files/sim_scripts} -ip_user_files_dir {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.ip_user_files} -ipstatic_source_dir {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.ip_user_files/ipstatic} -lib_map_path [list {modelsim=G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.cache/compile_simlib/modelsim} {questa=G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.cache/compile_simlib/questa} {riviera=G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.cache/compile_simlib/riviera} {activehdl=G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+reset_run synth_1
+reset_run RAM_synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw
+connect_hw_server
+disconnect_hw_server localhost:3121
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+current_hw_device [get_hw_devices xc7a100t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {G:/Notes/Computer Organization/Proj/fin/cpu_2/project_1.runs/impl_1/top.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
